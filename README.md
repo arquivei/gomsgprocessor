@@ -12,16 +12,14 @@
 
 ## Table of Contents
 
-  - [Demo](#demo)
-  - [Table of Contents](#table-of-contents)
-  - [<a name="Description" /> 1. Description](#a-namedescription--1-description)
-  - [<a name="TechnologyStack" /> 2. Technology Stack](#a-nametechnologystack--2-technology-stack)
-  - [<a name="GettingStarted" /> 3. Getting Started](#a-namegettingstarted--3-getting-started)
-  - [<a name="HighlightedFeatures" /> 4. Highlighted Features](#a-namehighlightedfeatures--4-highlighted-features)
-  - [<a name="Collaborators" /> 5. Collaborators](#a-namecollaborators--5-collaborators)
-  - [<a name="Contributing" /> 6. Contributing](#a-namecontributing--6-contributing)
-  - [<a name="License" /> 7. License](#a-namelicense--7-license)
-  - [<a name="ContactInformation" /> 8. Contact Information](#a-namecontactinformation--8-contact-information)
+  - [1. Description](#Description)
+  - [2. Technology Stack](#TechnologyStack)
+  - [3. Getting Started](#GettingStarted)
+  - [4. Highlighted Features](#HighlightedFeatures)
+  - [5. Collaborators](#Collaborators)
+  - [6. Contributing](#Contributing)
+  - [7. License](#License)
+  - [8. Contact Information](#ContactInformation)
 
 ## <a name="Description" /> 1. Description
 
