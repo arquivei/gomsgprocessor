@@ -1,3 +1,4 @@
+// nolint: forcetypeassert
 package gomsgprocessor
 
 import (
@@ -11,6 +12,7 @@ import (
 	"github.com/stretchr/testify/mock"
 )
 
+// nolint: lll, funlen, maintidx
 func Test_MakeDocuments(t *testing.T) {
 	t.Parallel()
 	tests := []struct {

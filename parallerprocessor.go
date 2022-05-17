@@ -9,12 +9,12 @@ import (
 	"golang.org/x/sync/errgroup"
 )
 
-// ParallelProcessor is a interface that process in parallel a slice of Message
+// ParallelProcessor is a interface that process in parallel a slice of Message.
 type ParallelProcessor interface {
 	MakeDocuments(context.Context, []Message) ([]Document, error)
 }
 
-// DocumentBuilder is a interface that transforms a Message into []Document
+// DocumentBuilder is a interface that transforms a Message into []Document.
 type DocumentBuilder interface {
 	Build(context.Context, Message) ([]Document, error)
 }
@@ -27,22 +27,19 @@ type parallelProcessor struct {
 // NewParallelProcessor returns a new ParallelProcessor with a map of
 // DocumentBuilder for each MessageType.
 //
-// A list of Option is also avaliable for this method. See option.go for more
-// information
+// A list of Option is also available for this method. See option.go for more
+// information.
 func NewParallelProcessor(
 	builders map[MessageType]DocumentBuilder,
 	opts ...Option,
 ) ParallelProcessor {
 	p := &parallelProcessor{
-		builders: builders,
+		builders:             builders,
+		deduplicateDocuments: defaultDeduplicateDocumentsFunc,
 	}
 
 	for _, opt := range opts {
 		opt(p)
-	}
-
-	if p.deduplicateDocuments == nil {
-		p.deduplicateDocuments = defaultDeduplicateDocumentsFunc
 	}
 
 	return p
