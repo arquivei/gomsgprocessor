@@ -11,11 +11,18 @@ import (
 
 // ParallelProcessor is a interface that process in parallel a slice of Message.
 type ParallelProcessor interface {
+	// MakeDocuments creates in parallel a slice of Document for given []Message
+	// using the map of DocumentBuilder (see NewParallelProcessor).
+	//
+	// This method returns a []Document and a (foundationkit/errors).Error.
+	// If not nil, this error has a (foundationkit/errors).Code associated with and
+	// can be a ErrCodeBuildDocuments or a ErrCodeDeduplicateDocuments.
 	MakeDocuments(context.Context, []Message) ([]Document, error)
 }
 
 // DocumentBuilder is a interface that transforms a Message into []Document.
 type DocumentBuilder interface {
+	// Build transforms a Message into []Document.
 	Build(context.Context, Message) ([]Document, error)
 }
 
@@ -45,12 +52,6 @@ func NewParallelProcessor(
 	return p
 }
 
-// MakeDocuments creates in parallel a slice of Document for given []Message
-// using the map of DocumentBuilder (see NewParallelProcessor).
-//
-// This method returns a []Document and a (foundationkit/errors).Error.
-// If not nil, this error has a (foundationkit/errors).Code associated with and
-// can be a ErrCodeBuildDocuments or a ErrCodeDeduplicateDocuments.
 func (p *parallelProcessor) MakeDocuments(ctx context.Context, msgs []Message) ([]Document, error) {
 	const op = errors.Op("gomsgprocessor.parallelProcessor.MakeDocuments")
 
