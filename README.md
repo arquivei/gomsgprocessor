@@ -73,8 +73,7 @@ GoMsgProcessor is a generic library to read messages, in a recursively and paral
 
     ```go
     func (e *ExampleMessage) GetNamespace() gomsgprocessor.Namespace {
-        // Namespace is a logical separator that will be used to group messages while
-		// processing then.
+        // Namespace is a logical separator that will be used to group messages while processing then.
         return gomsgprocessor.Namespace(e.Namespace)
     }
 
