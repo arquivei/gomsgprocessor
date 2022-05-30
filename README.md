@@ -12,8 +12,9 @@
   - [4. Changelog](#Changelog)
   - [5. Collaborators](#Collaborators)
   - [6. Contributing](#Contributing)
-  - [7. License](#License)
-  - [8. Contact Information](#ContactInformation)
+  - [7. Versioning](#Versioning)
+  - [8. License](#License)
+  - [9. Contact Information](#ContactInformation)
 
 ## <a name="Description" /> 1. Description
 
@@ -316,11 +317,15 @@ GoMsgProcessor is a generic library to read messages, in a recursively and paral
 
   Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## <a name="License" /> 7. License
-  
+## <a name="Versioning" /> 7. Versioning
+
   We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
   available, see the [tags on this repository](https://github.com/arquivei/gomsgprocessor/tags).
 
-## <a name="ContactInformation" /> 8. Contact Information
+## <a name="License" /> 8. License
+  
+This project is licensed under the BSD 3-Clause - see the [LICENSE.md](LICENSE.md) file for details.
 
-  All contact may be doing by [rilder.almeida@arquivei.com.br](mailto:rilder.almeida@arquivei.com.br)
+## <a name="ContactInformation" /> 9. Contact Information
+
+  Contacts can be made by email: [rilder.almeida@arquivei.com.br](mailto:rilder.almeida@arquivei.com.br)
