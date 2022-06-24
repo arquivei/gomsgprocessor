@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/arquivei/foundationkit v0.2.2
 	github.com/rs/zerolog v1.27.0
-	github.com/stretchr/testify v1.7.2
+	github.com/stretchr/testify v1.7.5
 	golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f
 )
 
