@@ -1,4 +1,4 @@
-module github.com/gomsgprocessor
+module github.com/arquivei/gomsgprocessor
 
 go 1.18
 
