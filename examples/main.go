@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/gomsgprocessor"
+	"github.com/arquivei/gomsgprocessor"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 )
