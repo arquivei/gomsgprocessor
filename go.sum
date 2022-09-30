@@ -73,6 +73,8 @@ contrib.go.opencensus.io/exporter/stackdriver v0.13.10 h1:a9+GZPUe+ONKUwULjlEOuc
 contrib.go.opencensus.io/exporter/stackdriver v0.13.10/go.mod h1:I5htMbyta491eUxufwwZPQdcKvvgzMB4O9ni41YnIM8=
 contrib.go.opencensus.io/exporter/stackdriver v0.13.13 h1:3KLhsPyyFp1pfZPicg8e1VMSeztIyWm+aE+iZQ8b9Kg=
 contrib.go.opencensus.io/exporter/stackdriver v0.13.13/go.mod h1:5pSSGY0Bhuk7waTHuDf4aQ8D2DrhgETRo9fy6k3Xlzc=
+contrib.go.opencensus.io/exporter/stackdriver v0.13.14 h1:zBakwHardp9Jcb8sQHcHpXy/0+JIb1M8KjigCJzx7+4=
+contrib.go.opencensus.io/exporter/stackdriver v0.13.14/go.mod h1:5pSSGY0Bhuk7waTHuDf4aQ8D2DrhgETRo9fy6k3Xlzc=
 dmitri.shuralyov.com/gpu/mtl v0.0.0-20190408044501-666a987793e9/go.mod h1:H6x//7gZCb22OMCxBHrMx7a5I7Hp++hsVxbQ4BYO7hU=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
@@ -112,6 +114,8 @@ github.com/arquivei/foundationkit v0.2.7 h1:E0H3+KS+aoZWfgI1iilcJ+s5RohT/ClWDjPL
 github.com/arquivei/foundationkit v0.2.7/go.mod h1:6mC8GOpOqHdi9H/pw6CdY+f8PljNZeOdcJ00RQPqpKU=
 github.com/arquivei/foundationkit v0.2.8 h1:/j3/3h5UKoDTp+hGwM/Mi/9TvBwTkIjnKCJPhB9y7d0=
 github.com/arquivei/foundationkit v0.2.8/go.mod h1:ZQovArnCAcdnL16lvQA1DAtKt3t/GQ6h42Kd/DsNsu8=
+github.com/arquivei/foundationkit v0.2.9 h1:ZbzVRK3B6qwsT4aWcfS33aYJdQe38mYKhcmVbCmlGdE=
+github.com/arquivei/foundationkit v0.2.9/go.mod h1:GfVpLWRUq1OxtXoL7+z33uBfe1g4JSj1eS21t6z8nG4=
 github.com/aws/aws-sdk-go v1.37.0/go.mod h1:hcU610XS61/+aQV88ixoOzUoG7v3b31pl2zKMmprdro=
 github.com/aws/aws-sdk-go v1.40.45/go.mod h1:585smgzpB/KqRA+K3y/NL/oYRqQvpNJYvLm+LY1U59Q=
 github.com/aws/aws-sdk-go v1.42.6 h1:CiJmv8Fdc7wLZhfWy1ZA9TNoOQrFtUC0mhpgyJTaKOs=
@@ -678,6 +682,8 @@ golang.org/x/net v0.0.0-20220811182439-13a9a731de15 h1:cik0bxZUSJVDyaHf1hZPSDsU8
 golang.org/x/net v0.0.0-20220811182439-13a9a731de15/go.mod h1:YDH+HFinaLZZlnHAfSS6ZXJJ9M9t4Dl22yv3iI2vPwk=
 golang.org/x/net v0.0.0-20220826154423-83b083e8dc8b h1:ZmngSVLe/wycRns9MKikG9OWIEjGcGAkacif7oYQaUY=
 golang.org/x/net v0.0.0-20220826154423-83b083e8dc8b/go.mod h1:YDH+HFinaLZZlnHAfSS6ZXJJ9M9t4Dl22yv3iI2vPwk=
+golang.org/x/net v0.0.0-20220919171627-f8f703f97925 h1:5Vhms/MnzRfom2tX/lHt58o74fzobhcw2FDjPdoGoow=
+golang.org/x/net v0.0.0-20220919171627-f8f703f97925/go.mod h1:YDH+HFinaLZZlnHAfSS6ZXJJ9M9t4Dl22yv3iI2vPwk=
 golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be/go.mod h1:N/0e6XlmueqKjAGxoOufVs8QHGRruUQn6yWY3a++T0U=
 golang.org/x/oauth2 v0.0.0-20190226205417-e64efc72b421/go.mod h1:gOpvHmFTYa4IltrdGE7lF6nIHvwfUNPOp7c8zoXwtLw=
 golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45/go.mod h1:gOpvHmFTYa4IltrdGE7lF6nIHvwfUNPOp7c8zoXwtLw=
