@@ -3,7 +3,7 @@ module github.com/arquivei/gomsgprocessor
 go 1.19
 
 require (
-	github.com/arquivei/foundationkit v0.2.10
+	github.com/arquivei/foundationkit v0.3.0
 	github.com/rs/zerolog v1.28.0
 	github.com/stretchr/testify v1.8.1
 	golang.org/x/sync v0.1.0
@@ -34,10 +34,10 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/prometheus v0.36.0 // indirect
 	github.com/stretchr/objx v0.5.0 // indirect
-	go.opencensus.io v0.23.0 // indirect
-	golang.org/x/net v0.1.0 // indirect
+	go.opencensus.io v0.24.0 // indirect
+	golang.org/x/net v0.2.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20220608161450-d0670ef3b1eb // indirect
-	golang.org/x/sys v0.1.0 // indirect
+	golang.org/x/sys v0.2.0 // indirect
 	golang.org/x/text v0.4.0 // indirect
 	google.golang.org/api v0.84.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
