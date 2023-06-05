@@ -1,4 +1,3 @@
-// nolint: forcetypeassert
 package gomsgprocessor
 
 import (
@@ -12,7 +11,6 @@ import (
 	"github.com/stretchr/testify/mock"
 )
 
-// nolint: lll, funlen, maintidx
 func Test_MakeDocuments(t *testing.T) {
 	t.Parallel()
 	tests := []struct {
@@ -746,6 +744,6 @@ type mockDocument struct {
 	id string
 }
 
-func mockDeduplicateDocumentsFuncError(d []Document) ([]Document, error) {
+func mockDeduplicateDocumentsFuncError(_ []Document) ([]Document, error) {
 	return nil, errors.New("deduplicate documents mock error")
 }
