@@ -746,6 +746,6 @@ type mockDocument struct {
 	id string
 }
 
-func mockDeduplicateDocumentsFuncError(d []Document) ([]Document, error) {
+func mockDeduplicateDocumentsFuncError(_ []Document) ([]Document, error) {
 	return nil, errors.New("deduplicate documents mock error")
 }
