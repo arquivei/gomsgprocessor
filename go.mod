@@ -1,8 +1,6 @@
 module github.com/arquivei/gomsgprocessor
 
-go 1.21
-
-toolchain go1.21.3
+go 1.21.3
 
 require (
 	github.com/arquivei/foundationkit v0.5.0
