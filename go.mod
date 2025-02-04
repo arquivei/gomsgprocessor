@@ -2,13 +2,13 @@ module github.com/arquivei/gomsgprocessor
 
 go 1.22.7
 
-toolchain go1.23.4
+toolchain go1.23.6
 
 require (
 	github.com/arquivei/foundationkit v0.10.2
 	github.com/rs/zerolog v1.33.0
 	github.com/stretchr/testify v1.10.0
-	golang.org/x/sync v0.10.0
+	golang.org/x/sync v0.11.0
 )
 
 require (
