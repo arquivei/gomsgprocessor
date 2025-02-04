@@ -86,8 +86,6 @@ func (p *parallelProcessor) parallelBuildDocumentsByNamespace(
 
 	g, ctx := errgroup.WithContext(ctx)
 	for i, msg := range msgs {
-		i, msg := i, msg
-
 		g.Go(func() error {
 			documentBuilder, ok := p.builders[msg.GetType()]
 			if !ok {
