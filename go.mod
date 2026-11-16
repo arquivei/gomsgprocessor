@@ -3,7 +3,7 @@ module github.com/arquivei/gomsgprocessor
 go 1.27
 
 require (
-	github.com/arquivei/foundationkit v0.14.0
+	github.com/arquivei/foundationkit v0.14.1
 	github.com/rs/zerolog v1.35.1
 	github.com/stretchr/testify v1.12.1
 	golang.org/x/sync v0.25.0

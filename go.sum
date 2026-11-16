@@ -2,8 +2,8 @@ cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMT
 cloud.google.com/go/compute/metadata v0.10.0 h1:pyKMUQSwchgkIBBJGdILqQbs/BNJXqwSA7Ej6LAvvtY=
 cloud.google.com/go/compute/metadata v0.10.0/go.mod h1:rGFHRrIif570kSibjFTMbt6/4/tzgJWFGI/HVol4GIk=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
-github.com/arquivei/foundationkit v0.14.0 h1:/WNcZeBXm8yhtZoc1Bj8O9pdlHXeoKu1upbS1GuLnAM=
-github.com/arquivei/foundationkit v0.14.0/go.mod h1:VF0ROAzYID8oeS4OhpoWCiObQ/zW2UHwewawOHo4AcM=
+github.com/arquivei/foundationkit v0.14.1 h1:sjjOalQHeGZxfBLfLLq+tuuYl9/xl/3CRFOdLtONrvU=
+github.com/arquivei/foundationkit v0.14.1/go.mod h1:VF0ROAzYID8oeS4OhpoWCiObQ/zW2UHwewawOHo4AcM=
 github.com/cenkalti/backoff/v5 v5.0.3 h1:ZN+IMa753KfX5hd8vVaMixjnqRZ3y8CuJKRKj1xcsSM=
 github.com/cenkalti/backoff/v5 v5.0.3/go.mod h1:rkhZdG3JZukswDf7f0cwqPNk4K0sa+F97BxZthm/crw=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
